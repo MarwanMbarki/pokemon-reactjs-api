@@ -1,0 +1,65 @@
+.Pokemon_wrapper {
+    padding-top: 50px;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: relative;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+.Pokemon_image{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+   
+    z-index: 1;
+    background-image: url('/../images/pokemon-picture.png');
+    transform: scaleX(-1);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width:450px;
+    opacity: 0.1;
+  }
+
+.loading {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Pokemon_wrapper table tbody tr td {
+    padding: 0 15px;
+    font-size: 13px;
+    border-bottom: 1px solid white;
+}
+
+.Pokemon_wrapper table tbody tr td ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.Pokemon_wrapper table tbody tr td ul li{
+    font-weight: 900;
+    padding: 5px;
+    text-align: center;
+}
+div span:last-child {
+color: red !important;
+}
